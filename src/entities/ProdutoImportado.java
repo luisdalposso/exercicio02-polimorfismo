@@ -21,7 +21,7 @@ public class ProdutoImportado extends Produto{
 	}
 	
 	public double custoFinal() {
-		return preco * (1 + taxaImportacao); 
+		return preco * ((1 + taxaImportacao) / 10); 
 	}
 	
 	@Override
